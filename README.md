@@ -1,39 +1,31 @@
-# 作者的话：
+# Author's Note:
 
-1.有毛边和一些奇怪的东西是正常的，后期P一下就好了，要不然就多抽卡。
+1. It's normal to have some rough edges and weird stuff, just touch it up in post-processing, or keep trying until you get a good one.
 
-2.分辨率提升找别人工作流做，出图出三张我也不知道你们喜欢什么色调，需要什么色调。
-
+2. For resolution enhancement, check out someone else's workflow. I generate three images at a time and I'm not sure which color tones you prefer.
 
 # Q & A
-Q：这个工作流的作用是什么？
 
-A：放一张参考图，放一张产品图，自动帮你合成。你也可以忽略IPadapter节点，使用文字描述生成背景。
+Q: What's the purpose of this workflow?
 
+A: You input a reference image and a product image, and it automatically blends them together for you. You can also skip the IPadapter node and use text descriptions to generate the background.
 
+Q: How do I use this workflow?
 
-Q：怎么用这个工作流？
+A: Input a reference background image (you can mask out objects if there are any), input a product image, then click "add prompt queue," and you're done.
 
-A：放一张背景参考图（如果有参考图有物体可以用蒙版擦除），放一张产品图，点击添加提示词队列，就完成了。
+Q: What if I get an error?
 
+A: Just post it in the comments. I check them every day at 10 AM, 3 PM, and 9 PM (GMT+8).
 
+# My Recommendations
 
-Q：报错了怎么办？
+Recommended main model: Realistic Vision V6.0 B1
 
-A：直接发到评论区，我每天早上（东八区）10点和下午3点以及晚上九点。
+Recommended inpaint model: Realistic Vision V6.0 B1 inpaint
 
-# 我的推荐
+### Redistribution allowed, but please credit the author.
 
-推荐大模型：Realistic Vision V6.0 B1
-
-推荐inpaint大模型：Realistic Vision V6.0 B1 inpaint
-
-
-
-### 允许转载，但是请注明作者。
-
-
-
-# 更新日志：
+# Changelog:
 
 v1 20240828
